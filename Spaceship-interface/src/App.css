@@ -1,0 +1,47 @@
+body {
+    font-size: 16px;
+    font-family: Poppins, sans-serif;
+    line-height: 1.5;
+    font-weight: 500;
+    color: white;
+    background: black url('./components/Nav/logo/SpaceBackground.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    object-fit: cover;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.mainBody {
+    display: flex;
+    @media only screen and (max-width: 500px) {
+      & {
+        padding: 0 10px;
+      }
+    }
+    @media only screen and (max-width: 935px) {
+      & {
+        padding: 20px;
+      }
+    }
+    @media only screen and (max-width: 1040px) {
+      & {
+        width: 100%;
+      }
+    }
+    @media only screen and (max-width: 935px) {
+      & {
+        padding: 0;
+      }
+    }
+    @media only screen and (max-width: 500px) {
+      & {
+        padding: 0 10px 20px;
+      }
+    }
+}
